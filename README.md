@@ -1,15 +1,52 @@
 <p align="center">
-  <a><img src="/GitHub-Collage.jpg" title="Crypto Bosses image"/></a>
+  <img src="logos/cryptobosses-icon-256.png" width="128" alt="CryptoBosses logo"/>
 </p>
 <p align="center">
-  <b>
-    Crypto Bosses Images & MetaData
-  </b>
-
-  <br>
-  <br><i>Here lie all 10,000 boss <a href="/images">images</a>, and <a href="/metadata">metadata</a></i>
-  <br>DONATIONS: 0x00DacE6C60934CB27BB05319f22512BfDdFFa22e
+  <b>CryptoBosses: official assets, license and provenance</b>
+  <br><i>10,000 Bosses on Ethereum. Each Boss is the title to one island of an archipelago.</i>
 </p>
+
+<p align="center"><a><img src="/GitHub-Collage.jpg" title="CryptoBosses collage"/></a></p>
+
+## What is CryptoBosses
+
+CryptoBosses (symbol `BOSS`) is an ERC-721 collection of **10,000 Bosses** on Ethereum mainnet. Island number N belongs to Boss number N, on a grid of 100 x 100 islands. A Boss is the title to an island: when the clock of [HashRush](https://cryptobosses.xyz) selects that island, it hosts a one-hour round of the game. The collection contract is the original one and is not modified by anything built around it.
+
+CryptoBosses and CryptoMiners are digital collectibles and items of a game. Nothing here is an offer, advice or a promise of any return. The project has issued no fungible token; any token claiming otherwise is not ours.
+
+## Official links
+
+| | |
+|---|---|
+| Collection and mint | https://cryptobossesnft.com |
+| Game (HashRush) and CryptoMiners | https://cryptobosses.xyz |
+| Free demo of the game | https://demo.cryptobosses.xyz/demo/ |
+| Whitepaper (Edition II) | https://cryptobosses.xyz/whitepaper/ (PDF: https://cryptobosses.xyz/whitepaper.pdf) |
+| Collection on Etherscan | https://etherscan.io/address/0x4958b779bf6db003dd87f67f0fc89d049d227c17 |
+| OpenSea | https://opensea.io/collection/crypto-bosses-nft |
+| Rarible | https://rarible.com/cryptobosses |
+
+## Official contract
+
+| Contract | Network | Address |
+|---|---|---|
+| CryptoBosses (`BOSS`, ERC-721, Solidity 0.7.6, verified) | Ethereum mainnet | `0x4958b779Bf6DB003DD87F67F0fc89d049d227C17` |
+
+CryptoMiners, Round Tickets and the revenue contracts run on the Sepolia test network only. Their mainnet addresses will be published here and on the two official sites, and nowhere else. `CryptoBosses.sol` in this repository is the verified source of the collection contract.
+
+## Brand assets (`logos/`)
+
+| File | Use |
+|---|---|
+| `cryptobosses-icon-32.svg` | token logo for block explorers (32x32 SVG) |
+| `cryptobosses-icon.svg` | vector icon (green gem on a black circle) |
+| `cryptobosses-icon-32.png`, `-256.png`, `-512.png` | raster icons (`CB_Logo_32x32.png` is the original 32x32) |
+| `cryptobosses-mark.svg` | the gem alone, transparent background |
+| `cryptobosses-banner-1200x630.png` | social preview image |
+
+Colors: gem `#2EE06A`, background `#050805`.
+
+Donations: 0x00DacE6C60934CB27BB05319f22512BfDdFFa22e
 
 ### LICENSE
 
@@ -19,90 +56,16 @@ We’ve given licensing rights over for the bosses, but not our logo, name (Cryp
 
 We don’t mind personal use or fan art usage of our logos and brand, just so long as you don’t try and sell them. The bottom line here is to protect the club, it is important that someone can’t pretend to be Crypto Bosses and that they can’t pretend to be collaborating with us.
 
-https://www.cryptobossesnft.com/
-<br>https://etherscan.io/address/0x4958b779bf6db003dd87f67f0fc89d049d227c17
-<br>https://opensea.io/collection/crypto-bosses-nft
-<br>https://rarible.com/cryptobosses
+### Original collection images
 
-## How to use this repo
-
-Want the image and the metadata for BOSS #0?
-
-### Image
-
-"`/images/0.png`" contains
-
-![](/images/0.png)
-
-⚠️  All images are 10,000x10,000 pixels ⚠️
-
-### MetaData
-
-"`/metadata/0`" contains
-
-```json
-{
-    "image": "https://gateway.pinata.cloud/ipfs/QmdhBpZ2Qbu49BBS2ZeE1mgXadqPAf944PbD3v88vzkfqm/0.png",
-    "tokenId": 0,
-    "name": "Crypto-Boss #0",
-    "attributes": [
-        {
-            "trait_type": "Background",
-            "value": "Blue"
-        },
-        {
-            "trait_type": "Accessory",
-            "value": "Glass"
-        },
-        {
-            "trait_type": "Hair",
-            "value": "Black"
-        },
-        {
-            "trait_type": "Skin",
-            "value": "White"
-        },
-        {
-            "trait_type": "Suit",
-            "value": "Black"
-        },
-        {
-            "trait_type": "Pant",
-            "value": "Black"
-        },
-        {
-            "trait_type": "Tie",
-            "value": "Purple"
-        },
-        {
-            "trait_type": "Shoe",
-            "value": "Brown"
-        }
-    ]
-}
-```
+The 10,000 original images (10,000 x 10,000 px) were published with the checksums below, and their provenance hash is part of the collection contract. The island titles used by the game have their own provenance hash, published at https://cryptobossesnft.com.
 
 ### SHA256-SUM
-https://raw.githubusercontent.com/EcoCx/CryptoBosses/main/SHA-256-Checksums
-"`/SHA-256-Checksums.txt`" contains
---------------------------------------------------------------------------------------------------------------------------------------------
-* SHA-256 PROVENANCE HASH OF ALL IMAGES TOGETHER = 256a0598e63be92783e2983a9156f42989c0c91d1226faae578d632ff5f64aa8 
-./sha-256-checksums_all_images_PROVENANCE-HASH.txt
---------------------------------------------------------------------------------------------------------------------------------------------
 
-```json
+https://raw.githubusercontent.com/Jaguarbyte-Labs/CryptoBosses/main/SHA-256-Checksums
 
-## PRESS 'CTRL+F'  AND  TYPE: ./{TOKEN_ID}.png'
-## ./0.png  ~>  ./9999.png
-b65b26f2e70a05f9a08ec9fa8af06fa2e155d3a851a85b7243af7cbba7225872  ./0.png
-21bd191f3db756e6b9ed51f1b2900ad64cc10829a5ea65f130016696d09f6177  ./1.png
-45e4a51ca64df91d4c177b1823806ba037483d09f65ad416ca88950dbedbf58e  ./2.png
-d599ae00a2664f013ec131aa104f74f1d21921aba184cc6f043f62065bda14d9  ./3.png
-7627e70bafe2114040f8f8b7b8a01baaf0dc40ed7230675361b8aaf7de6460ed  ./4.png
-94864e4d12e0e0a9e92766cb64b48d2da54b07665fd8c8cdb3ca4b306be584d8  ./5.png
-7762a008d5caa4fb30762bbb3e5a2d135c5faf679cf0652496cc3bfd35467ebf  ./6.png
-163d437611ec657d8192aac071cf07fc6d54a6032c5f49dd6de7f69464bcbefc  ./7.png
-d8b6c21f4e1130ed490b1752380d8ac5ee8112d2f4caaa79b78993b90be8799a  ./8.png
-6df189ed3dc2737ee468570a53c20471c2e1afbb49cdc2caf167dcfb70f99b1d  ./9.png
-ec39a624713177aeb5321f90cdc4445508bd330fafa613e957a0e9d03a5f7d38  ./10.png
+`SHA-256-Checksums` lists one hash per image, `./0.png` to `./9999.png` (press Ctrl+F and type `./{TOKEN_ID}.png`).
+
+```
+SHA-256 PROVENANCE HASH OF ALL IMAGES TOGETHER = 256a0598e63be92783e2983a9156f42989c0c91d1226faae578d632ff5f64aa8
 ```
