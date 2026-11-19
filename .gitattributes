@@ -1,0 +1,7 @@
+# Provenance depends on exact bytes: never let git rewrite line endings of the images or the hash lists.
+*.svg               -text
+*.png               binary
+*.jpg               binary
+provenance/**       -text
+contracts/*.sol     -text
+SHA-256-Checksums   -text
