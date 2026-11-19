@@ -132,7 +132,6 @@ Per-island hashes, the full method and the original 2021 checksums: **[`provenan
 │   │   ├── PROVENANCE-HASH.txt   hash of all 10,000 islands (= on-chain)
 │   │   ├── SHA256SUMS            one hash per island
 │   │   └── provenance.txt        mirror of cdn.cryptobossesnft.com/provenance.txt
-│   ├── original-2021/            checksums of the 2021 portraits (historical)
 │   ├── verify.mjs                one-command verification
 │   └── README.md
 ├── media/                        collage, deeds, Miners, game banner
